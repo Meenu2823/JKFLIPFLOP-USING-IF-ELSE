@@ -60,7 +60,7 @@ begin
         if (!reset)
             begin
                q <= q;
-               qb <=~q;
+               qb <= qb;
             end        
 else
  //Write logic for JK flipflop using if else statement for four conditions
@@ -68,7 +68,7 @@ begin
                if (j == 0 && k == 0)
                     begin
                     q <= q;
-                    qb <= ~q;
+                    qb <= qb;
                     end 
 	             	else if (j != k)
                     begin
@@ -88,11 +88,11 @@ endmodule
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-![image](https://github.com/Meenu2823/JKFLIPFLOP-USING-IF-ELSE/assets/139416219/6a5b50c9-617a-4aab-941d-43af9316a32a)
+![image](https://github.com/Meenu2823/JKFLIPFLOP-USING-IF-ELSE/assets/139416219/5238322d-61f9-4d9d-a31e-ceee07c3e8be)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![image](https://github.com/Meenu2823/JKFLIPFLOP-USING-IF-ELSE/assets/139416219/904b41f5-a3b3-48d7-9f06-6c559ac81c5d)
+![image](https://github.com/Meenu2823/JKFLIPFLOP-USING-IF-ELSE/assets/139416219/b4c0b176-c849-4afd-a94f-f7af7059dabd)
 
 **RESULTS**
 
